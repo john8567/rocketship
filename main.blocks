@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="73)eJk48p}e_Ym9gM4v;">Player</variable><variable type="KIND_SpriteKind" id="IKM3$qtDMsZh0M3G`cPX">Projectile</variable><variable type="KIND_SpriteKind" id="e{FhjKyg,jB}KuK#|9l/">Food</variable><variable type="KIND_SpriteKind" id="x#u},]tb]3rm+m_FQC6T">Enemy</variable><variable id="iK6m?UnI_?q`^EDgh#U%">mySprite</variable><variable id="{i2_xb%#L0W^^x!JqoXx">sandy</variable></variables><block type="pxt-on-start" x="30" y="130"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="{i2_xb%#L0W^^x!JqoXx">sandy</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . f f . . . . . . . 
+. . . . . . . f f . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . . f f f f f . . . . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f f f f f f . . . . 
+. . . . f f f f f f f f f f . . 
+. . . . f f f f f f f f f f . . 
+. . . f f f f f f f f f f f . . 
+. . . f f f f f f f f f f f . . 
+. . f f f f f f f f f f f f . . 
+. f f f f f f f f f f f f f . . 
+. f f f f f f f f f f f f f . . 
+. 2 4 2 4 2 4 2 4 2 4 2 4 2 . . 
+. 2 4 2 4 2 4 2 4 2 4 2 4 2 . . 
+. 2 4 2 4 2 4 2 4 2 4 2 4 2 . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor"><value name="color"><shadow type="colorindexpicker"><field name="index">9</field></shadow></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="{i2_xb%#L0W^^x!JqoXx">sandy</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">75</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">120</field></shadow></value><next><block type="controls_repeat_ext"><value name="TIMES"><shadow type="math_whole_number"><field name="NUM">25</field></shadow></value><statement name="DO"><block type="device_pause"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="{i2_xb%#L0W^^x!JqoXx">sandy</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-6</field></shadow></value></block></next></block></statement></block></next></block></next></block></next></block></statement></block></xml>
